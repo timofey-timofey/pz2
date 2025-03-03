@@ -4,27 +4,21 @@ class PostalAddress:
         self._house = house
         self._apartment = apartment
 
-    @property
     def street(self):
         return self._street
 
-    @street.setter
     def street(self, value):
         self._street = value
 
-    @property
     def house(self):
         return self._house
 
-    @house.setter
     def house(self, value):
         self._house = value
 
-    @property
     def apartment(self):
         return self._apartment
 
-    @apartment.setter
     def apartment(self, value):
         self._apartment = value
 
